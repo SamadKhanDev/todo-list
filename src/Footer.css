@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  margin: 0;      /* remove default browser margin */
+  padding: 0;
+}
+
+#root {
+  min-height: 100%;  
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-list {
+  flex: 1;  /* pushes footer down */
+}
+
+.footer {
+  background-color:  rgba(6, 79, 98, 0.700);
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 10px 5px;
+  margin: 0;        /* no extra gap */
+  font-family: Arial, sans-serif;
+}

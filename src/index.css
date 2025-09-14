@@ -1,0 +1,169 @@
+body{
+  background-color: rgba(32, 133, 158, 0.69);
+  
+}
+/* rgb(106, 142, 39); */
+.to-do-list{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px
+}
+h1{
+    font-size: 4rem;
+}
+button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    transition: backgrund-color 0.5 ease;
+    margin: 2px;
+
+}
+/* Add Button */
+.add-button {
+  background-color: rgba(6, 79, 98, 0.500);
+  transition: all 0.3s ease;
+}
+
+/* Add Button Hover*/
+.add-button:hover {
+  background-color: rgba(6, 79, 98, 0.700);
+  box-shadow: 0 0 12px 0 rgba(3, 66, 76, 0.4);
+  transform: scale(0.95);
+}
+
+/* Add Button Active*/
+.add-button:active {
+  transform: scale(1.05); /* small press effect */
+}
+
+/* Del Button */
+.del-button{
+    background-color: rgba(6, 79, 98, 0.500);
+    transition: all 0.3s ease;
+}
+
+/* Del Button Hover */
+.del-button:hover{
+    background-color:rgba(6, 79, 98, 0.700);
+    box-shadow: 0 0 12px 0 rgba(3, 66, 76, 0.4);
+  transform: scale(0.95);
+}
+
+/* Del Button Active*/
+.del-button:active{
+   transform: scale(0.95); /* small press effect */
+}
+
+/* UP Button */
+.moveTask-Up{
+background-color: rgba(6, 79, 98, 0.500);
+    transition: all 0.3s ease;
+}
+
+/* Del Button Hover*/
+.moveTask-Up:hover{
+   background-color:rgba(6, 79, 98, 0.700);
+    box-shadow: 0 0 12px 0 rgba(3, 66, 76, 0.4);
+  transform: scale(0.95);
+}
+
+.moveTask-Up:active{
+transform: scale(1.05); /* small press effect */
+}
+
+
+
+.moveTask-Down{
+ background-color: rgba(6, 79, 98, 0.500);
+    transition: all 0.3s ease;
+}
+.moveTask-Down:hover{
+background-color:rgba(6, 79, 98, 0.700);
+    box-shadow: 0 0 12px 0 rgba(3, 66, 76, 0.4);
+  transform: scale(0.95);
+}
+
+.moveTask-Down:active{
+transform: scale(1.05); /* small press effect */
+}
+
+
+
+.searchBar{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color:black;
+}
+.searchBar:focus {
+  border-color: rgba(6, 79, 98, 0.8);
+  box-shadow: 0 0 10px rgba(6, 79, 98, 0.5);
+  outline: none;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+background-color: rgba(240, 248, 255, 0.8) ;   /* very light bluish white */  margin-bottom: 10px;
+  /* border: 3px solid whitesmoke; */
+  display: flex;
+  align-items: center;
+  border-radius: 20px 20px;
+}
+
+.text{
+  flex: 1;
+  /* flex-shrink: 1;
+  flex-basis: 0%; */
+}
+
+.del-button, .moveTask-up{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px
+}
+
+ol{
+  padding: 0;
+  list-style-position: inside; /* keeps numbers inside */
+  max-width: 600px;  /* 👈 control the width (adjust as you like) */
+  margin: 20px auto; /* 👈 centers the list */
+}
+
+.reset-btn{
+   background-color: rgba(6, 79, 98, 0.500);
+    transition: all 0.3s ease;
+}
+
+
+.reset-btn:hover {
+  background-color: rgba(6, 79, 98, 0.700);
+  box-shadow: 0 0 12px 0 rgba(3, 66, 76, 0.4);
+  transform: scale(0.95);
+}
+.animate__animated.animate__bounceIn{
+  --animate-duration: 1.5s;    
+}
+
+
+.taskCount {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: rgba(6, 63, 77, 0.9);
+}
+.check-Box{
+  transform: scale(1.5);  /* 1.5x bigger */
+  margin: 5px;
+  cursor: pointer;
+}
+ .onLoad{
+  font-size: 1.3rem;
+  color: black;
+ }
