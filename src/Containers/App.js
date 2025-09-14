@@ -1,8 +1,8 @@
 
-import ToDoList from "./ToDoList";
-import Footer from "./Footer";
+import ToDoList from "../Components/ToDoList";
+import Footer from "../Components/Footer";
 import 'animate.css';
-import ErrorBoundary from "./ErrorBoundary";
+import ErrorBoundary from "../Components/ErrorBoundary";
 
 
 function App(){
